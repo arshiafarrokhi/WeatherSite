@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="assets/css/master.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter City Name" name="search" id=search">
+            <button><img src="https://github.com/Khyes/12_weather_webapp/blob/main/img/search.png?raw=true"alt="search"></button>
+        </div>
+
+        <div class="error">
+            <p>Invalid City Name</p>
+        </div>
+
+        <div class="weather">
+            <img src="img/clouds.png" class="weather-icon" alt="rain">
+            <h1 class="temp">22°C</h1>
+            <h3 class="temp">Feels Like <span class="feels-like">22</span>°C</h3>
+            <h2 class="city">New York</h2>
+            <h3 class="country">USA</h3>
+
+            <div class="details">
+                <div class="col">
+                    <img src="https://github.com/Khyes/12_weather_webapp/blob/main/img/humidity.png?raw=true"
+                        alt="humidity">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="https://github.com/Khyes/12_weather_webapp/blob/main/img/wind.png?raw=true" alt="wind">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="assets/js/master.js"></script>
+
+</html>
